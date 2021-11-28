@@ -2,5 +2,7 @@
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontLigatures": false,
   "editor.tabSize": 2,
-  "workbench.colorTheme": "Webstorm IntelliJ Darcula Theme"
+  "workbench.colorTheme": "Webstorm IntelliJ Darcula Theme",
+  "files.autoSave": "onFocusChange",
+  "files.insertFinalNewline": true
 }
