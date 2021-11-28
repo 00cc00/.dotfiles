@@ -1,9 +1,14 @@
 - clean: ['~']
 
+- shell:
+  - [sh pre-install.sh, Running pre installation script]
+  - [brew bundle, Installing Homebrew formulas from Brewfile]
+
 - link:
     ~/.ssh/config:
         path: ssh/config
         create: true
     ~/.zshrc: zshrc
+    ~/Brewfile: Brewfile
 
 
