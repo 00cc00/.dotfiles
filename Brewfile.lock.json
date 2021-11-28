@@ -12,6 +12,12 @@
         "options": {
           "full_name": "font-jetbrains-mono"
         }
+      },
+      "google-chrome": {
+        "version": "96.0.4664.55",
+        "options": {
+          "full_name": "google-chrome"
+        }
       }
     },
     "tap": {
