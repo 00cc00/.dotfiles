@@ -1,4 +1,6 @@
 brew 'asdf'
+brew 'gpg'
+brew 'gawk'
 tap 'homebrew/cask-fonts'
 cask 'font-jetbrains-mono'
 cask 'visual-studio-code'

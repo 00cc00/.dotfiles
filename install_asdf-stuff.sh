@@ -10,3 +10,6 @@ fi
 
 asdf install nodejs latest
 asdf install ruby latest
+
+asdf global nodejs latest
+asdf global ruby latest
