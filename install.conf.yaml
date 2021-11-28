@@ -5,6 +5,7 @@
   - [brew bundle, Installing Homebrew formulas from Brewfile]
   - [mkdir -p ~/.oh-my-zsh/custom/, Creating oh-my-zsh custom forlders]
   - [mkdir -p ~/.oh-my-zsh/custom/plugins, Creating oh-my-zsh custom plugins forlders]
+  - [sh install_asdf-stuff.sh, Install asdf plugins]
 
 - link:
     ~/.ssh/config:
@@ -13,6 +14,7 @@
     ~/.zshrc: zshrc
     ~/Brewfile: Brewfile
     "~/Library/Application\ Support/Code/User/settings.json": settings.json
+    ~/.asdfrc: asdfrc
 
 - shell:
-  - [zsh install_spaceship-prompt.sh, Install Spaceship prompt]
+  - [sh install_spaceship-prompt.sh, Install Spaceship prompt]
