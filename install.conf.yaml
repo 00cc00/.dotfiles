@@ -12,6 +12,7 @@
         create: true
     ~/.zshrc: zshrc
     ~/Brewfile: Brewfile
+    "~/Library/Application\ Support/Code/User/settings.json": settings.json
 
 - shell:
   - [zsh install_spaceship-prompt.sh, Install Spaceship prompt]
