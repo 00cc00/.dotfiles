@@ -6,6 +6,17 @@
         "options": {
           "full_name": "visual-studio-code"
         }
+      },
+      "font-jetbrains-mono": {
+        "version": "2.242",
+        "options": {
+          "full_name": "font-jetbrains-mono"
+        }
+      }
+    },
+    "tap": {
+      "homebrew/cask-fonts": {
+        "revision": "7c43d26e8f02dbc579c78071adddfe71f1e77c9c"
       }
     }
   },
@@ -13,8 +24,8 @@
     "macos": {
       "monterey": {
         "HOMEBREW_VERSION": "3.3.5",
-        "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "50c40a08ca3cebd1d89962a931c99201bf90fb40",
+        "HOMEBREW_PREFIX": "/opt/homebrew",
+        "Homebrew/homebrew-core": "319b9e327cda4cb19364d1f68abfaced73bacede",
         "CLT": "13.1.0.0.1.1633545042",
         "Xcode": "13.1",
         "macOS": "12.0.1"
