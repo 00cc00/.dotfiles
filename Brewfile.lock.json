@@ -18,11 +18,17 @@
         "options": {
           "full_name": "google-chrome"
         }
+      },
+      "slack": {
+        "version": "4.22.0",
+        "options": {
+          "full_name": "slack"
+        }
       }
     },
     "tap": {
       "homebrew/cask-fonts": {
-        "revision": "7c43d26e8f02dbc579c78071adddfe71f1e77c9c"
+        "revision": "4e7f86432a297ce7e476082b3339858529b8af4a"
       }
     },
     "brew": {
@@ -125,7 +131,7 @@
       "monterey": {
         "HOMEBREW_VERSION": "3.3.5",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "c32f243acaddffb510bc5c640e83202e5101690c",
+        "Homebrew/homebrew-core": "65fd189d10044bfb5dcfb2f7f4734e5d2b31b36b",
         "CLT": "13.1.0.0.1.1633545042",
         "Xcode": "13.1",
         "macOS": "12.0.1"
