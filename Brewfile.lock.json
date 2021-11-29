@@ -30,6 +30,12 @@
         "options": {
           "full_name": "postgres-unofficial"
         }
+      },
+      "spotify": {
+        "version": "1.1.69.612,b7409abc,13",
+        "options": {
+          "full_name": "spotify"
+        }
       }
     },
     "tap": {
@@ -215,7 +221,7 @@
       "monterey": {
         "HOMEBREW_VERSION": "3.3.6",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "4c4eb26257348c5dd41398d5b827e0c8f03cefa5",
+        "Homebrew/homebrew-core": "c15826a0d1c6f8ffb35470db2c45ad3992340f3f",
         "CLT": "13.1.0.0.1.1633545042",
         "Xcode": "13.1",
         "macOS": "12.0.1"
