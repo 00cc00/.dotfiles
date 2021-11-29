@@ -24,6 +24,12 @@
         "options": {
           "full_name": "slack"
         }
+      },
+      "postgres-unofficial": {
+        "version": "2.5.2",
+        "options": {
+          "full_name": "postgres-unofficial"
+        }
       }
     },
     "tap": {
