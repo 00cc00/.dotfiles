@@ -4,5 +4,7 @@
   "editor.tabSize": 2,
   "workbench.colorTheme": "Webstorm IntelliJ Darcula Theme",
   "files.autoSave": "onFocusChange",
-  "files.insertFinalNewline": true
+  "files.insertFinalNewline": true,
+  "eslint.packageManager": "yarn",
+  "editor.minimap.enabled": false
 }
