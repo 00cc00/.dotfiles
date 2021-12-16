@@ -18,13 +18,20 @@ if [[ $(asdf plugin list | grep pnpm) != 'pnpm' ]]; then
   asdf plugin-add pnpm
 fi
 
+if [[ $(asdf plugin list | grep deno) != 'deno' ]]; then
+  echo 'Installing deno asdf plugin'
+  asdf plugin-add deno
+fi
+
 asdf install nodejs latest
 asdf install ruby latest
 asdf install yarn latest
 asdf install pnpm latest
+asdf install deno latest
 
 asdf global nodejs latest
 asdf global ruby latest
 asdf global pnpm latest
+asdf global deno latest
 
 corepack enable
