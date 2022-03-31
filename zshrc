@@ -119,3 +119,6 @@ source $ZSH/oh-my-zsh.sh
 ### SPACESHIP PROMPT ###
 SPACESHIP_PROMPT_ADD_NEWLINE=false
 SPACESHIP_PROMPT_SEPARATE_LINE=false
+
+### Fuzzy Search ###
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

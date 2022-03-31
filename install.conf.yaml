@@ -18,3 +18,4 @@
 
 - shell:
   - [sh install_spaceship-prompt.sh, Install Spaceship prompt]
+  - [sh $(brew --prefix)/opt/fzf/install, Install fuzzy search key bindings]
