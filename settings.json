@@ -5,6 +5,25 @@
   "workbench.colorTheme": "Webstorm IntelliJ Darcula Theme",
   "files.autoSave": "onFocusChange",
   "files.insertFinalNewline": true,
-  "eslint.packageManager": "yarn",
-  "editor.minimap.enabled": false
+  "editor.minimap.enabled": false,
+  "emmet.includeLanguages": {
+    "*.erb": "html",
+    "ruby": "html"
+  },
+  "stylelint.validate": [
+    "css",
+    "scss",
+    "vue"
+  ],
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "i18n-ally.displayLanguage": "de",
+  "vite.devCommand": "npm run dev",
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
 }
