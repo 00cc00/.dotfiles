@@ -23,15 +23,29 @@ if [[ $(asdf plugin list | grep deno) != 'deno' ]]; then
   asdf plugin-add deno
 fi
 
+if [[ $(asdf plugin list | grep erlang) != 'erlang' ]]; then
+  echo 'Installing erlang asdf plugin'
+  asdf plugin-add erlang
+fi
+
+if [[ $(asdf plugin list | grep elixir) != 'elixir' ]]; then
+  echo 'Installing elixir asdf plugin'
+  asdf plugin-add elixir
+fi
+
 asdf install nodejs latest
 asdf install ruby latest
 asdf install yarn latest
 asdf install pnpm latest
 asdf install deno latest
+asdf install erlang latest
+asdf install elixir latest
 
 asdf global nodejs latest
 asdf global ruby latest
 asdf global pnpm latest
 asdf global deno latest
+asdf global erlang latest
+asdf global elixir latest
 
 corepack enable
