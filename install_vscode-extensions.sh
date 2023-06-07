@@ -1,4 +1,4 @@
-extensions=("xr0master.webstorm-intellij-darcula-theme")
+extensions=("xr0master.webstorm-intellij-darcula-theme" "eamodio.gitlens")
 
 for element in "${extensions[@]}"
 do
