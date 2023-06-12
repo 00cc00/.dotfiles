@@ -2,28 +2,22 @@
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontLigatures": false,
   "editor.tabSize": 2,
-  "workbench.colorTheme": "Webstorm IntelliJ Darcula Theme",
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
   "files.autoSave": "onFocusChange",
   "files.insertFinalNewline": true,
-  "editor.minimap.enabled": false,
+  "workbench.colorTheme": "Webstorm IntelliJ Darcula Theme",
   "emmet.includeLanguages": {
     "*.erb": "html",
     "ruby": "html"
   },
-  "stylelint.validate": [
-    "css",
-    "scss",
-    "vue"
-  ],
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
+  "stylelint.validate": ["css", "scss", "vue"],
   "i18n-ally.displayLanguage": "de",
-  "vite.devCommand": "npm run dev",
-  "[typescript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
+  "i18n-ally.enabledFrameworks": ["react"],
+  "i18n-ally.localesPaths": ["src/**/**"],
+  "i18n-ally.pathMatcher": "{locale}/translations.json"
 }
