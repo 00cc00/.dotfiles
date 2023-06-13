@@ -5,6 +5,7 @@ extensions=(
   "stylelint.vscode-stylelint"
   "dbaeumer.vscode-eslint"
   "lokalise.i18n-ally"
+  "orta.vscode-jest"
 )
 
 for element in "${extensions[@]}"
