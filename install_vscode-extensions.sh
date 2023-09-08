@@ -6,6 +6,7 @@ extensions=(
   "dbaeumer.vscode-eslint"
   "lokalise.i18n-ally"
   "orta.vscode-jest"
+  "rangav.vscode-thunder-client"
 )
 
 for element in "${extensions[@]}"

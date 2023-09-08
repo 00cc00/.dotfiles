@@ -15,9 +15,19 @@
     "*.erb": "html",
     "ruby": "html"
   },
-  "stylelint.validate": ["css", "scss", "vue"],
+  "stylelint.validate": ["css", "scss", "vue", "postcss"],
   "i18n-ally.displayLanguage": "de",
   "i18n-ally.enabledFrameworks": ["react"],
-  "i18n-ally.localesPaths": ["src/**/**"],
-  "i18n-ally.pathMatcher": "{locale}/translations.json"
+  "i18n-ally.localesPaths": ["apps/**/**"],
+  "i18n-ally.pathMatcher": "{locale}/translations.json",
+  "editor.inlineSuggest.enabled": true,
+  "sonarlint.connectedMode.connections.sonarcloud": [
+    {
+      "organizationKey": "dgg-devops",
+      "connectionId": "dgg-devops"
+    }
+  ],
+  "git.autofetch": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "git.confirmSync": false
 }
